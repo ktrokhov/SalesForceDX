@@ -1,0 +1,106 @@
+<!--
+ - Created by kirill on 14.11.2019.
+ -->
+<apex:page standardController="Event">
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUGz1jHDjm6CQ1hJ1iV0B_a4hV7W9ouAk&callback=initMap" defer="1">
+    </script>
+    <script>
+        let map;
+
+        let infoWindow;
+        let oDir;
+        let oTraf;
+        let oDisp;
+        let oReq;
+        let destination={ lat:55.4872, lng:37.3047 };
+
+        const modes={
+            car:'DRIVING',
+        };
+        const advReqOptions={
+            provideRouteAlternatives:true,
+            optimizeWaypoints:true,
+        };
+
+
+
+        function initMap(){
+
+
+
+            /* callback function when markers are dragged and the route is re-calculated */
+            const calculateroute=function(e){
+                oReq={
+                    origin:this.type=='start' ? e.latLng : oReq.origin,
+                    destination:this.type=='finish' ? e.latLng : oReq.destination,
+                    travelMode:modes.car
+                };
+                oDir.route( Object.assign( oReq, advReqOptions ), callback );
+            };
+
+            /* process the route response */
+            const callback=function(r,s){
+                if( s === 'OK' ) oDisp.setDirections( r );
+                else evtGeoFailure( s );
+            }
+
+            /* Main callback invoked when the user's location has been identified */
+            const evtGeoSuccess=function(p){
+                /* create the map */
+                let location={
+                    lat: parseFloat( p.coords.latitude ),
+                    lng: parseFloat( p.coords.longitude )
+                };
+                let options= {
+                    zoom: 16,
+                    center:location,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    disableDefaultUI: true,
+                };
+                let routeoptions={
+                    map:map
+                };
+
+                /* create the map object */
+                map = new google.maps.Map( document.getElementById('map'), options );
+
+
+                /* display the textual directions in an infowindow which opens on marker click */
+                infoWindow = new google.maps.InfoWindow({ maxWidth:450, disableAutoPan:false });
+                infoWindow.setContent( document.getElementById('info') );
+
+
+                /* create the objects required for the directions calculations */
+                oDir=new google.maps.DirectionsService();
+                oDisp=new google.maps.DirectionsRenderer( routeoptions );
+                oTraf=new google.maps.TrafficLayer();
+
+
+                /* construct the initial request */
+                oReq={
+                    origin:location,
+                    destination:destination,
+                    travelMode:modes.car
+                };
+
+                /* go get the directions... */
+                oDisp.setMap( map );
+                oTraf.setMap( map );
+                oDisp.setPanel( infoWindow.getContent() );
+                oDir.route( Object.assign( oReq, advReqOptions ), callback );
+            };
+
+
+
+
+            if( navigator.geolocation ) navigator.geolocation.getCurrentPosition( evtGeoSuccess );
+        }
+    </script>
+    <style>
+        html, body, #map {
+            width: 100%; height: 100%; padding: 0; margin: 0;
+        }
+    </style>
+    <div id="map"></div>
+</apex:page>

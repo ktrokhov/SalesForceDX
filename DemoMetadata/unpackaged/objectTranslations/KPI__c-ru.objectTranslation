@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>KPI</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>KPI</value>
+    </caseValues>
+    <fields>
+        <label><!-- Средний чек (факт) --></label>
+        <name>AverageInvoiceFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Средний чек (план) --></label>
+        <name>AverageInvoicePlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Кол-во командировок (факт) --></label>
+        <name>BusinessTripsNumberFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Кол-во командировок (план) --></label>
+        <name>BusinessTripsNumberPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Активировано офисов (факт) --></label>
+        <name>OfficesActivatedThisPeriodFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Активировано офисов (план) --></label>
+        <name>OfficesActivatedThisPeriodPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Объём продаж (факт) --></label>
+        <name>PeriodSalesVolumeFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Объём продаж (план) --></label>
+        <name>PeriodSalesVolumePlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продано полисов (факт) --></label>
+        <name>PoliciesSoldFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продать полисов (план) --></label>
+        <name>PoliciesSoldPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Квартал --></label>
+        <name>Quartal__c</name>
+        <picklistValues>
+            <masterLabel>2019 Q1</masterLabel>
+            <translation><!-- 2019 Q1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019 Q2</masterLabel>
+            <translation><!-- 2019 Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019 Q3</masterLabel>
+            <translation><!-- 2019 Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019 Q4</masterLabel>
+            <translation><!-- 2019 Q4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Сотрудник --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- KPI --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Кол-во встреч (факт) --></label>
+        <name>VisitsNumberFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Кол-во встреч (план) --></label>
+        <name>VisitsNumberPlan__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>KPI Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Активация офисов --></label>
+            <section>Активация офисов</section>
+        </sections>
+        <sections>
+            <label><!-- Встречи --></label>
+            <section>Встречи</section>
+        </sections>
+        <sections>
+            <label><!-- Командировки --></label>
+            <section>Командировки</section>
+        </sections>
+        <sections>
+            <label><!-- Продажи --></label>
+            <section>Продажи</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

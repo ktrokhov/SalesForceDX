@@ -1,0 +1,37 @@
+<apex:page standardController="Event" id="page">
+<script src="../../soap/ajax/42.0/connection.js" type="text/javascript"></script>
+<script>
+    if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+    alert("Geolocation is not supported by this browser.");
+    }
+
+    function showPosition(pos) {
+    /*put logs as shown to check whether populating correctly or not*/
+        console.log("Latitude: " + pos.coords.latitude + "\nLongitude: " + pos.coords.longitude);
+    // storing into long (id of hidden field in form tags)
+        document.getElementById("page:fId:hdnField4").value = pos.coords.latitude;
+        document.getElementById("page:fId:hdnField5").value = pos.coords.longitude;
+    // storing into long (id of hidden field in form tags)  document.getElementById('{!$Component.fId.longField}').value = pos.coords.longitude;
+    
+    sforce.connection.sessionId='{!GETSESSIONID()}';
+    var EventToUpdate = new sforce.SObject("Event"); 
+    EventToUpdate.CurrentLocation__Latitude__s= pos.coords.latitude; 
+    EventToUpdate.CurrentLocation__Longitude__s= pos.coords.longitude; 
+    EventToUpdate.Id = "{!Event.Id}"; 
+    
+    sforce.connection.update([EventToUpdate]); 
+    
+}
+</script>
+<apex:form id="fId">
+    <!--<apex:inputHidden id="hdnField2" value="{!Event.ActualLocation__Latitude__s}" />
+    <apex:inputHidden id="hdnField3" value="{!Event.ActualLocation__Longitude__s}" />
+    <apex:inputText id="hdnField4" value="{!Event.ActualLocation__Latitude__s}" />
+    <apex:inputText id="hdnField5" value="{!Event.ActualLocation__Longitude__s}" />-->
+    <apex:inputHidden id="hdnField4" value="{!Event.CurrentLocation__Latitude__s}" />
+    <apex:inputHidden id="hdnField5" value="{!Event.CurrentLocation__Longitude__s}" />
+    <!-- rest of code here -->
+</apex:form>
+</apex:page>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Язык</label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Тип уведомления</label>
+        <name>Notification_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alerts</masterLabel>
+            <translation><!-- Alerts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drivers</masterLabel>
+            <translation><!-- Drivers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Источник</label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Base Contact</masterLabel>
+            <translation><!-- Base Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base User</masterLabel>
+            <translation><!-- Base User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxicabinet</masterLabel>
+            <translation><!-- Taxicabinet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Статус</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Working</masterLabel>
+            <translation><!-- Not Working --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation><!-- Working --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Пользовательское соглашение</label>
+        <name>User_agreement__c</name>
+        <picklistValues>
+            <masterLabel>Agreement</masterLabel>
+            <translation><!-- Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not agreement</masterLabel>
+            <translation><!-- Not agreement --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Ассистент --></label>
+            <section>Ассистент</section>
+        </sections>
+        <sections>
+            <label><!-- Доп. сведения --></label>
+            <section>Доп. сведения</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

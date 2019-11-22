@@ -1,0 +1,10 @@
+Добрый день!
+
+На очередь исполнителей назначен новый Лид:
+
+Компания: {!Lead.Company}
+Имя: {!Lead.FirstName} {!Lead.LastName}
+Телефон: {!Lead.Phone}
+Email: {!Lead.Email}
+
+{!Lead.Link}

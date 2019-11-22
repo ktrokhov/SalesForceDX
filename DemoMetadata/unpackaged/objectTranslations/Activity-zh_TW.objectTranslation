@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Факт. место встречи --></label>
+        <name>ActualLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Фактическое начало встречи (авт.) --></label>
+        <name>ActualStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Факт. время открытия презентации --></label>
+        <name>Actual_Presentation_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Адрес организации --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Текущее местоположение --></label>
+        <name>CurrentLocation__c</name>
+    </fields>
+    <fields>
+        <help>所有事件計數</help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation>資源缺勤</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation>服務約會</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- План. начало (согласованный план) --></label>
+        <name>FactStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Факт. место встречи (карта) --></label>
+        <name>Fact_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Время загрузки вложения (фото) --></label>
+        <name>FileInsertDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Новая встреча --></label>
+        <name>NewEvent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Сотрудник Партнера --></label>
+        <name>PartnerContact__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Партнер --></label>
+        <name>Partner__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Место встречи --></label>
+        <name>PlannedLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Комментарий (текст) --></label>
+        <name>Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Статус --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Завершена</masterLabel>
+            <translation><!-- Завершена --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Запланирована</masterLabel>
+            <translation><!-- Запланирована --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Начата</masterLabel>
+            <translation><!-- Начата --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Отменена</masterLabel>
+            <translation><!-- Отменена --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Договор согласован --></label>
+        <name>VisitTask1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Договор подписан --></label>
+        <name>VisitTask2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Тренинг по новым продуктам проведён --></label>
+        <name>VisitTask3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Презентация проведена --></label>
+        <name>VisitTask4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Следующая встреча назначена --></label>
+        <name>VisitTask5__c</name>
+    </fields>
+</CustomObjectTranslation>

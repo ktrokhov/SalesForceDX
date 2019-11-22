@@ -1,0 +1,5 @@
+<apex:page >
+ 
+<apex:iframe src="{!'/sfc/servlet.shepherd/document/download/' & $CurrentPage.parameters.docId }" scrolling="true" id="theIframe"/>
+
+</apex:page>

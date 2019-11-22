@@ -1,0 +1,89 @@
+<aura:component controller="PartnerIndexController"
+implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickActionWithoutHeader" access="global">
+	
+
+       <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+     <!--  <aura:handler event="force:navigateToSObject" action="{!c.doEdit}"/> -->
+       
+        <aura:attribute name="data" type="Object"/>
+        <aura:attribute name="columns" type="List"/>
+        
+    	<aura:attribute name="listPartnerIndex" type="List"/>    	
+    	<aura:attribute name="recordId" type="Id" />
+    	<aura:attribute name="updatedRecord" type="Object[]" />	
+    
+        
+ <!--       <lightning:layoutItem>
+            <lightning:icon iconName="custom:custom62" alternativeText="Изменение плана объема продаж" />
+        </lightning:layoutItem>
+       
+        <lightning:layoutItem padding="horizontal-small">
+            <div class="page-section page-header">
+                <h2 class="slds-page-header__title slds-hyphenate">Внесение изменений</h2>
+           
+            </div>
+            
+        </lightning:layoutItem>
+          
+    </lightning:layout>
+    -->
+    
+        <lightning:card title="Изменение плана объема продаж">
+        <lightning:datatable
+                             aura:id="indexDataTable"
+                             columns="{! v.columns }"
+                             data="{! v.data }"
+                             keyField="Id"
+                             onsave ="{!c.onSave}"
+                             hideCheckboxColumn="true"
+                             onrowaction="{! c.handleRowAction }" />
+    </lightning:card>
+
+    
+    <!--
+    
+    <table class=" slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+        <thead>
+            <tr class="slds-line-height_reset">
+              
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="size">Объём продаж (план)</div>
+                </th>
+                 <th class="" scope="col">
+                    <div class="slds-truncate" title="size">Причина</div> 
+                </th>
+                 
+            </tr>   
+        </thead>
+  
+   <tbody>
+            <aura:iteration items="{!v.listPartnerIndex}" var="item">
+                <tr>
+                    <th scope="row">
+                        <div class="slds-truncate">
+                            <span class="slds-truncate">{!item.PeriodSalesVolumePlan__c}</span>
+                        </div>
+                    </th>
+                    <th scope="row">
+                        <div class="slds-truncate" >
+                           <a href="javascript:void(0);" onclick="{!c.doView}">
+                            <span class="slds-truncate" id="{!item.Id}">{!item.Reason__c}</span>
+                            </a>
+                       </div>
+                    </th>
+    
+                </tr>  
+            </aura:iteration>
+        </tbody>
+    </table>
+    <div></div>
+
+    <lightning:layout > 
+    <lightning:button label="Сохранить"
+                      		 iconName="utility:download"
+                      		 iconPosition="left"
+                     		 variant="brand"
+                      		 onclick="{!c.save}"/>
+    </lightning:layout>
+-->	
+</aura:component>

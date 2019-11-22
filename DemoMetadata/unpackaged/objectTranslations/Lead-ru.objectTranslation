@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Лид</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Лиды</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Лида</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Лидов</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Лида</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Лидов</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Лиду</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Лидам</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Лид</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Лиды</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Лидах</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Лидам</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Доступ к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Доступы к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Доступу к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Доступам к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Доступа к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Доступов к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Доступом к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Доступами к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Доступ к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Доступы к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Доступе к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Доступах к лиду</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_access</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Уровень доступа к лиду</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Уровни доступа к лиду</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_access_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Предупреждение об лиде</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_alert</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Правило назначения лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Правила назначения лидов</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_assignment_rule</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Сбора лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Сбор лидов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_capture</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Интерфейс сбора лидов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_capture_interface</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Страницы сбора лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Страница сбора лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Странице сбора лидов</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>lead_capture_page</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Автора лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Авторов лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Автору лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Автора лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Автор лида</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>lead_creator</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Валюта лида</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>lead_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Настраиваемое поле лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Настраиваемые поля лида</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_custom_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Данные лида</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_data</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Подразделение лида</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Редактирование лида</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Полей лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Поле лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Поля лида</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Лид: общее</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_general</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Журнал лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Журналы лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Журналу лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Журналам лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Журнала лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Журналов лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Журналом лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Журналами лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Журнал лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Журналы лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Журнале лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Журналах лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет &quot;Журнал лида&quot;</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Кода лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Кодов лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Код лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Коды лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Импорт лидов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_import</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Мастер импорта лидов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_import_wizard</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Сведениями об лиде</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Сведениями об лиде</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Сведения об лиде</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Сведения об лиде</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Жизненный цикл лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_lifetime</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет &quot;Список лидов&quot;</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_list_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Управление лидами</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_management</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Имени лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Имя лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Имена лидов</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Ответственного за лид</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Ответственных за лид</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Ответственного за лид</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Ответственных за лид</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Ответственный за лид</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Ответственные за лид</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>lead_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Псевдоним ответственного за лид</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет &quot;Ответственный за лид&quot;</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_owner_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Раскрывающийся список лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Раскрывающиеся списки лидов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_picklist</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Очередь лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Очереди лидов</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>lead_queue</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Рейтинг лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_rating</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Запись лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Записи лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Записи лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Записям лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Записи лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Записей лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Записью лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Записями лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Запись лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Записи лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Записи лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Записях лида</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>lead_record</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Тип записи лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Типы записей лидов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет по лидам</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Отчеты по лидам</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Отчетах по лидам</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Рейтингу лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Рейтинга лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Рейтинг лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Рейтинги лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_score</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Параметры лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Параметр лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Параметры лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_setting</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Настройка лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Настройке лида</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>lead_setup</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Источник лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Источники лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Источнику лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Источникам лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Источника лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Источников лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Источник лида</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Источники лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Код этапа лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_stage_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Статус лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет &quot;Статус лида&quot;</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>lead_status_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Представление лидов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Представления лидов</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>lead_views</name>
+    </fields>
+    <fields>
+        <label><!-- Бренд --></label>
+        <name>Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Бюджет --></label>
+        <name>Budjet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Тип бизнеса --></label>
+        <name>Business_type__c</name>
+        <picklistValues>
+            <masterLabel>Автохозяйство</masterLabel>
+            <translation><!-- Автохозяйство --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Прочее</masterLabel>
+            <translation><!-- Прочее --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Такси</masterLabel>
+            <translation><!-- Такси --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Город --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Причина закрытия --></label>
+        <name>Close_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Страна --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ответственный --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3000 series</masterLabel>
+            <translation><!-- GC3000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>SICCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Точка входа --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source (Lead channel) --></label>
+        <name>Source_lead_channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Веб-страница таксопарка --></label>
+        <name>Taxi_park_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продолжительность просмотра --></label>
+        <name>Viewing_duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Процент просмотра --></label>
+        <name>Viewing_percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Партнер Яндекс.Такси --></label>
+        <name>YaTaxi_partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- amo UID --></label>
+        <name>amo_UID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Номер контракта --></label>
+        <name>contract_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Заполнил форму --></label>
+        <name>filled_the_form__c</name>
+    </fields>
+    <fields>
+        <label><!-- Есть действующий бизнес? --></label>
+        <name>has_entity__c</name>
+        <picklistValues>
+            <masterLabel>Да</masterLabel>
+            <translation><!-- Да --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Нет</masterLabel>
+            <translation><!-- Нет --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Язык --></label>
+        <name>lang__c</name>
+    </fields>
+    <fields>
+        <label><!-- Сокращенное юр. наименование --></label>
+        <name>legal_short_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Участие в программе --></label>
+        <name>participated_in_the_program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Готовность сотрудничать --></label>
+        <name>ready_to_work__c</name>
+    </fields>
+    <fields>
+        <label><!-- Дата регистрации --></label>
+        <name>registration_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Дата и время регистрации --></label>
+        <name>registration_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_campaign --></label>
+        <name>utm_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_content --></label>
+        <name>utm_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_source --></label>
+        <name>utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_term --></label>
+        <name>utm_term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ссылка на вебинар --></label>
+        <name>webinar_uniq_link__c</name>
+    </fields>
+    <gender>AnimateMasculine</gender>
+    <layouts>
+        <layout>МТ</layout>
+        <sections>
+            <label><!-- Вебинар --></label>
+            <section>Вебинар</section>
+        </sections>
+        <sections>
+            <label><!-- Контактная информация --></label>
+            <section>Контактная информация</section>
+        </sections>
+        <sections>
+            <label><!-- Маркетинговая информация --></label>
+            <section>Маркетинговая информация</section>
+        </sections>
+        <sections>
+            <label><!-- Местоположение --></label>
+            <section>Местоположение</section>
+        </sections>
+        <sections>
+            <label><!-- Мой таксопарк --></label>
+            <section>Мой таксопарк</section>
+        </sections>
+        <sections>
+            <label><!-- Настраиваемые ссылки --></label>
+            <section>Настраиваемые ссылки</section>
+        </sections>
+        <sections>
+            <label><!-- Опрос --></label>
+            <section>Опрос</section>
+        </sections>
+        <sections>
+            <label><!-- Поля --></label>
+            <section>Поля</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- МТ: Продажи --></label>
+        <name>MT_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- МТ: Лизинг --></label>
+        <name>RecordType</name>
+    </recordTypes>
+</CustomObjectTranslation>

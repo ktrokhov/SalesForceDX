@@ -1,0 +1,145 @@
+<aura:component controller="PartnerIndexController"
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">	
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler event="force:navigateToSObject" action="{!c.doEdit}"/>
+    
+    <aura:attribute name="listPartnerIndex" type="List"/>    	
+    <aura:attribute name="recordId" type="Id" />
+    
+    
+    <div class="slds-page-header">
+        <div class="slds-page-header__row">
+               <div class="slds-page-header__col-title">
+      <div class="slds-media">
+        <div class="slds-media__figure">
+          <span class="slds-icon_container slds-icon-standard-opportunity">
+            <lightning:icon iconName="custom:custom62" />
+          </span>
+        </div>
+        <div class="slds-media__body">
+          <div class="slds-page-header__name">
+            <div class="slds-page-header__name-title">
+              <h1>
+
+                <span class="slds-page-header__title slds-truncate" title="Index">Показатели</span>
+              </h1>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+           
+        <div class="slds-page-header__col-actions slds-float_right">
+        <div class="slds-page-header__controls">
+        <div class="slds-page-header__control">
+
+            <lightning:button label="Текущий год"               
+            iconPosition="right"
+            variant="Neutral"
+            onclick="{!c.getNowYearIndex}"/>
+            
+            <lightning:button label="Все года"               
+            iconPosition="right"
+            variant="Neutral"
+            onclick="{!c.getAllYearIndex}"/>
+
+       
+            <lightning:button label="Создать показатели"
+                              
+                              iconPosition="right"
+                              variant="Neutral"
+                              onclick="{!c.createPartner}"/>
+        </div>
+         </div>
+        </div>
+    </div>
+    </div>
+    <!-- Custom DataTable to Display List Of Available ContentDocuments Start--> 
+    <div class="slds-table--header-fixed_container" style="height:450px;">
+        <div class="slds-scrollable_y" style="height:100%;">
+            <table class=" slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Title">Период планирования</div>
+                        </th>
+                        
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="size">Показатель:код</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="size">Объём продаж НСЖ (план)</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="size">Объём продаж НСЖ (факт)</div> 
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="size">Объём продаж ИСЖ (план)</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="size">Объём продаж ИСЖ (факт)</div> 
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="size">% выполнения объема продаж</div> 
+                        </th>
+                    </tr>   
+                </thead>
+                
+                <tbody>
+                    <aura:iteration items="{!v.listPartnerIndex}" var="item">
+                        <tr>
+                            <th scope="row">
+                                <div class="slds-truncate">
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <span class="slds-truncate">{!item.IndexShortDate__c}</span>
+                                </div>
+                            </th>
+                            <th scope="row">
+                                <div class="slds-truncate" >
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <a href="javascript:void(0);" onclick="{!c.doView}">
+                                        <span class="slds-truncate" id="{!item.Id}">{!item.Name}</span>
+                                    </a>
+                                </div>
+                            </th>
+                            <th scope="row"> 
+                                <div class="slds-truncate">
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <span class="slds-truncate">{!item.PeriodSalesVolumePlan__c}</span>
+                                </div>
+                            </th>
+                            <th scope="row">
+                                <div class="slds-truncate" >
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <span class="slds-truncate">{!item.	PeriodSalesVolumeFact__c}</span>
+                                </div>
+                            </th>
+                            <th scope="row"> 
+                                <div class="slds-truncate">
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <span class="slds-truncate">{!item.PeriodSalesVolumeInvestPlan__c}</span>
+                                </div>
+                            </th>
+                            <th scope="row">
+                                <div class="slds-truncate" >
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <span class="slds-truncate">{!item.	PeriodSalesVolumeInvestFact__c}</span>
+                                </div>
+                            </th>
+                            <th scope="row">
+                                <div class="slds-truncate" >
+                                    <!--store contentDocument Id in data-Id attribute-->
+                                    <span class="slds-truncate">{!item.PercentSalesVolumeFact__c}</span>
+                                </div>
+                            </th>
+                            
+                        </tr>  
+                    </aura:iteration>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</aura:component>

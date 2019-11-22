@@ -3,7 +3,7 @@
 3. sfdx force:org:list //инфомация в каких аккаунтах сидим(вошли)
 4. sfdx force:mdapi:retrieve -r <Каталог где лежит packgame.xml> -u <username in SF> -k package.xml
 5. unzip -o <path/unpackaged.zip> -d <current location>
-6. sfdx force:mdapi:deploy -c <deploy only validate targets> -d <folder location> -u <username> -w <wait time in min>
+6. sfdx force:mdapi:deploy -c <deploy only validate targets> -d (folder location) -u (username) -w (wait time in min)
 
 
 

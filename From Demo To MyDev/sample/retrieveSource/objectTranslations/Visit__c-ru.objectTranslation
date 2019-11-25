@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Визит</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Визиты</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Визит</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Визиты</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Визита</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Визитов</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Визиту</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Визитам</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Визитом</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Визитами</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Визите</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Визитах</value>
+    </caseValues>
+    <fields>
+        <label><!-- Организация --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Визиты --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Комментарий --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Контакт --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Визиты --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Факт. начало визита --></label>
+        <name>FactStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Факт. окончание визита --></label>
+        <name>FinishDateTimeFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Окончание визита --></label>
+        <name>FinishDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Начало визита --></label>
+        <name>StartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Статус --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Выполняется</masterLabel>
+            <translation><!-- Выполняется --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Еще не запланирован</masterLabel>
+            <translation><!-- Еще не запланирован --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Завершен</masterLabel>
+            <translation><!-- Завершен --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Запланирован</masterLabel>
+            <translation><!-- Запланирован --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Отменен</masterLabel>
+            <translation><!-- Отменен --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Отправлен</masterLabel>
+            <translation><!-- Отправлен --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Тема --></label>
+        <name>Subject__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Визит Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Дата и время визита --></label>
+            <section>Дата и время визита</section>
+        </sections>
+        <sections>
+            <label><!-- Дополнительная информация --></label>
+            <section>Дополнительная информация</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Визит к клиенту --></label>
+        <name>ClientVisit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Совместный визит --></label>
+        <name>JointVisit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Визит к партнеру --></label>
+        <name>PartnerVisit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Обучение агента --></label>
+        <name>Training</name>
+    </recordTypes>
+</CustomObjectTranslation>

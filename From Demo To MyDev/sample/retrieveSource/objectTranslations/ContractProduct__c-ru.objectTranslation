@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Продукт условий сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Продукты условий сотрудничества</value>
+    </caseValues>
+    <fields>
+        <label><!-- Количество --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- КВ % --></label>
+        <name>CommissionPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Условие сотрудничества --></label>
+        <name>Contract__c</name>
+        <relationshipLabel><!-- Продукты условий сотрудничества --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- КВ (РУБ) --></label>
+        <name>KV_RUB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продукт --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Продукты условий сотрудничества --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Продукт Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Сделка</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Сделки</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Сделку</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Сделки</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Сделку</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Сделки</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Сделке</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Сделкам</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Сделкой</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Сделками</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Сделке</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Сделкам</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Канал лида</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_lead_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Имя сделки</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Имя сделок</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>opportunity_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Ответственного за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Ответственных за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Ответственному за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Ответственным за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Ответственного за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Ответственных за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Ответственным за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Ответственными за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Ответственный за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Ответственные за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Ответственном за сделку</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Ответственных за сделку</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>opportunity_owner</name>
+    </fields>
+    <fields>
+        <label><!-- Лизинговая компания --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Advance Request --></label>
+        <name>Advance_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Среднемесячный оборот --></label>
+        <name>Average_month_turnover__c</name>
+    </fields>
+    <fields>
+        <label><!-- BCG Owner --></label>
+        <name>BCG_Owner__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Borrower Category --></label>
+        <name>Borrower_Category__c</name>
+        <picklistValues>
+            <masterLabel>Новый парк без поручительства</masterLabel>
+            <translation><!-- Новый парк без поручительства --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Новый парк с поручительством</masterLabel>
+            <translation><!-- Новый парк с поручительством --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Существующий парк</masterLabel>
+            <translation><!-- Существующий парк --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Бренд --></label>
+        <name>Brand__c</name>
+        <picklistValues>
+            <masterLabel>Chevrolet</masterLabel>
+            <translation><!-- Chevrolet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citroen</masterLabel>
+            <translation><!-- Citroen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ford</masterLabel>
+            <translation><!-- Ford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyundai</masterLabel>
+            <translation><!-- Hyundai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kia</masterLabel>
+            <translation><!-- Kia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitsubishi</masterLabel>
+            <translation><!-- Mitsubishi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nissan</masterLabel>
+            <translation><!-- Nissan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renault</masterLabel>
+            <translation><!-- Renault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skoda</masterLabel>
+            <translation><!-- Skoda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volkswagen</masterLabel>
+            <translation><!-- Volkswagen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Бюджет --></label>
+        <name>Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Тип бизнеса --></label>
+        <name>BusinessType__c</name>
+        <picklistValues>
+            <masterLabel>Новый парк</masterLabel>
+            <translation><!-- Новый парк --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Старый парк</masterLabel>
+            <translation><!-- Старый парк --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Причина закрытия --></label>
+        <name>Closed_reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Комментарий --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Страна --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Дата контракта с Яндекс.Такси --></label>
+        <name>Date_of_contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Оборудование --></label>
+        <name>Equipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Язык --></label>
+        <name>Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Тип лизинга --></label>
+        <name>LeasingType__c</name>
+        <picklistValues>
+            <masterLabel>Аннуитет</masterLabel>
+            <translation><!-- Аннуитет --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Балон</masterLabel>
+            <translation><!-- Балон --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Нет</masterLabel>
+            <translation><!-- Нет --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Сезонный</masterLabel>
+            <translation><!-- Сезонный --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Дата открытия юр. лица --></label>
+        <name>Legal_entity_entry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monitoring agreement --></label>
+        <name>Monitoring_agreement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Количество авто --></label>
+        <name>Number_of_cars__c</name>
+    </fields>
+    <fields>
+        <label><!-- Количество авто в запросе --></label>
+        <name>Number_of_cars_in_request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Город --></label>
+        <name>OpportunityCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>OpportunityProductQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>OpportunityProductTotal_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Parent --></label>
+        <name>Opportunity_Parent__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Product --></label>
+        <name>Opportunity_Product2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Параллельный контракт --></label>
+        <name>Parallel_contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Участвовал в программе --></label>
+        <name>ParticipatedInTheProgramme__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продуктовая линейка --></label>
+        <name>ProductFamily__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>ProductRollup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продукт --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Дата регистрации --></label>
+        <name>Registration_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Дати и время регистрации на вебинар --></label>
+        <name>Registration_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Price --></label>
+        <name>Sales_Price_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Used cars seller --></label>
+        <name>Used_cars_seller__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utm_Campaign --></label>
+        <name>Utm_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utm_Content --></label>
+        <name>Utm_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utm_Source --></label>
+        <name>Utm_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продолжительность просмотра --></label>
+        <name>Viewing_duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Процент просмотра --></label>
+        <name>Viewing_percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ссылка на вебинар --></label>
+        <name>Webinar_unique_link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Партнер Яндекс.Такси --></label>
+        <name>YaTaxi_partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- amo UID --></label>
+        <name>amo_UID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Дата получения авто --></label>
+        <name>date_take__c</name>
+    </fields>
+    <fields>
+        <label><!-- Заполнил форму --></label>
+        <name>filled_the_form__c</name>
+    </fields>
+    <fields>
+        <label><!-- Готов сотрудничать --></label>
+        <name>ready_to_work__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_term --></label>
+        <name>utm_term__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Лизинг</layout>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Лизинг_2</layout>
+        <sections>
+            <label><!-- Вебинар --></label>
+            <section>Вебинар</section>
+        </sections>
+        <sections>
+            <label><!-- ГСБ --></label>
+            <section>ГСБ</section>
+        </sections>
+        <sections>
+            <label><!-- Маркетинговая информация --></label>
+            <section>Маркетинговая информация</section>
+        </sections>
+        <sections>
+            <label><!-- Местоположение --></label>
+            <section>Местоположение</section>
+        </sections>
+        <sections>
+            <label><!-- Мой Таксопарк --></label>
+            <section>Мой Таксопарк</section>
+        </sections>
+        <sections>
+            <label><!-- Опрос --></label>
+            <section>Опрос</section>
+        </sections>
+        <sections>
+            <label><!-- Прескоринг --></label>
+            <section>Прескоринг</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Мой Таксопарк</layout>
+        <sections>
+            <label><!-- Вебинар --></label>
+            <section>Вебинар</section>
+        </sections>
+        <sections>
+            <label><!-- ГСБ --></label>
+            <section>ГСБ</section>
+        </sections>
+        <sections>
+            <label><!-- Маркетинговая информация --></label>
+            <section>Маркетинговая информация</section>
+        </sections>
+        <sections>
+            <label><!-- Местоположение --></label>
+            <section>Местоположение</section>
+        </sections>
+        <sections>
+            <label><!-- Мой Таксопарк --></label>
+            <section>Мой Таксопарк</section>
+        </sections>
+        <sections>
+            <label><!-- Опрос --></label>
+            <section>Опрос</section>
+        </sections>
+        <sections>
+            <label><!-- Прескоринг --></label>
+            <section>Прескоринг</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+        <sections>
+            <label><!-- Ценообразование --></label>
+            <section>Ценообразование</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Отправить имейл --></label>
+        <name>Email_Send</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- МТ: Лизинг --></label>
+        <name>Leasing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- МТ: Продажи --></label>
+        <name>Sales_MT</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+</CustomObjectTranslation>

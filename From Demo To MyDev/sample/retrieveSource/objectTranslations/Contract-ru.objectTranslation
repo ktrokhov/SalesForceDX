@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Условие сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Условия сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Условие сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Условия сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Условия сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Условий сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Условию сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Условиям сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Условием сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Условиями сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Условие сотрудничества</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Условиях сотрудничества</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Роль контакта условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>contract_contact_role</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Валюту условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Валюта условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>contract_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Настраиваемое поле условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Настраиваемые поля условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_custom_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Сведения о условие сотрудничествае</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Сведения о условие сотрудничествае</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_detail</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Подразделение условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Редактирование условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Дату окончания условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Дата окончания условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>contract_end_date</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Поля условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Полей условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Поле условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Поля условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Журнал условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Журналы условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Журналу условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Журналам условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Журнала условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Журналов условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Журналом условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Журналами условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Журнал условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Журналы условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Журнале условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Журналах условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет &quot;Журнал условие сотрудничестваа&quot;</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Код условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Сведения о условие сотрудничествае</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Сведения о условие сотрудничествае</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Менеджера условие сотрудничестваов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Менеджеров условие сотрудничестваов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Менеджер условие сотрудничестваов</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>contract_manager</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Имя условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Имена условие сотрудничестваов</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Номер условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_number</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Ответственного за условие сотрудничества</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Ответственных за условие сотрудничества</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Ответственный за условие сотрудничества</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>contract_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Псевдоним ответственного за условие сотрудничества</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Адрес эл. почты ответственного за условие сотрудничества</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_owner_email</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Отчет &quot;Ответственный за условие сотрудничества&quot;</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_owner_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Ответственность за условие сотрудничества</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>contract_ownership</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Раскрывающийся список условие сотрудничестваов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Раскрывающиеся списки условие сотрудничестваов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_picklist</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Тип записи условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Типы записей условие сотрудничестваов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Код типа записи условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_record_type_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Условие сотрудничества и заказ</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Условия сотрудничества и заказы</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Параметр условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Параметры условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_settings</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Дата начала условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>contract_start_date</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Статус условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Статусу условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Статус условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Значение раскрывающегося списка статусов условие сотрудничестваа</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Значения раскрывающегося списка статусов условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_status_picklist_value</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Порядок сортировки статусов условие сотрудничестваов</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_status_sort_order</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Срок условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_term</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Тип условие сотрудничестваа</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>contract_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Представление условие сотрудничестваов</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Представления условие сотрудничестваов</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>contract_view</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Страница сведений о условие сотрудничествае</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>contracts_detail_page</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Доп. информация --></label>
+            <section>Доп. информация</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

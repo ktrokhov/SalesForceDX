@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Встреча</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Встречи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Встречу</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Встречи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Встречи</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Встреч</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Встрече</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Встречам</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Встречей</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Встречами</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Встрече</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Встречах</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Календарное встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Календарные встречи</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>calendar_event</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Редактирование календарного встречи</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>calendar_event_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Тема календарного встречи</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>calendar_event_subject</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Участника встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Участников встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Участника встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Участник встречи</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>event_attendee</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Данные встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Данные встречи</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>event_data</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Приглашение на встреча</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>event_invitation</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Приглашенного на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Приглашенных на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>false</plural>
+            <value>Приглашенному на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Dative</caseType>
+            <plural>true</plural>
+            <value>Приглашенным на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Приглашенного на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Приглашенных на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Приглашенным на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Приглашенными на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Приглашенный на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Приглашенные на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>false</plural>
+            <value>Приглашенном на встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Prepositional</caseType>
+            <plural>true</plural>
+            <value>Приглашенных на встреча</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>event_invitee</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Событий</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Встречи</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>event_occurrence</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Тип записи встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Типы записей событий</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>event_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Многопользовательское календарное встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Многопользовательское календарное встреча</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>group_calendar_event</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Редактирование многопользовательского календарного встречи</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>group_calendar_event_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Групповым встречам</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Групповое встреча</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Групповые встречи</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>group_event</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Тип группового встречи</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Типы группового встречи</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>group_event_type</name>
+    </fields>
+    <fields>
+        <label><!-- Факт. место встречи --></label>
+        <name>ActualLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Фактическое начало встречи (авт.) --></label>
+        <name>ActualStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Факт. время открытия презентации --></label>
+        <name>Actual_Presentation_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Адрес организации --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Текущее местоположение --></label>
+        <name>CurrentLocation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of all events --></help>
+        <label><!-- Count of Events --></label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Tasks --></label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- План. начало (согласованный план) --></label>
+        <name>FactStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Факт. место встречи (карта) --></label>
+        <name>Fact_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Время загрузки вложения (фото) --></label>
+        <name>FileInsertDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Новая встреча --></label>
+        <name>NewEvent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Сотрудник Партнера --></label>
+        <name>PartnerContact__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Партнер --></label>
+        <name>Partner__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Место встречи --></label>
+        <name>PlannedLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Комментарий (текст) --></label>
+        <name>Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Статус --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Договор согласован --></label>
+        <name>VisitTask1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Договор подписан --></label>
+        <name>VisitTask2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Тренинг по новым продуктам проведён --></label>
+        <name>VisitTask3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Презентация проведена --></label>
+        <name>VisitTask4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Следующая встреча назначена --></label>
+        <name>VisitTask5__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- GeoGoogle --></label>
+            <section>GeoGoogle</section>
+        </sections>
+        <sections>
+            <label><!-- GoogleRoute --></label>
+            <section>GoogleRoute</section>
+        </sections>
+        <sections>
+            <label><!-- Адрес --></label>
+            <section>Адрес</section>
+        </sections>
+        <sections>
+            <label><!-- Адрес организации --></label>
+            <section>Адрес организации</section>
+        </sections>
+        <sections>
+            <label><!-- Дата и время --></label>
+            <section>Дата и время</section>
+        </sections>
+        <sections>
+            <label><!-- Маршрут --></label>
+            <section>Маршрут</section>
+        </sections>
+        <sections>
+            <label><!-- Результаты и следующие шаги --></label>
+            <section>Результаты и следующие шаги</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+        <sections>
+            <label><!-- Факт. время и место встречи --></label>
+            <section>Факт. время и место встречи</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mobile Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Адрес --></label>
+            <section>Адрес</section>
+        </sections>
+        <sections>
+            <label><!-- Адрес организации --></label>
+            <section>Адрес организации</section>
+        </sections>
+        <sections>
+            <label><!-- Дата и время --></label>
+            <section>Дата и время</section>
+        </sections>
+        <sections>
+            <label><!-- Маршрут --></label>
+            <section>Маршрут</section>
+        </sections>
+        <sections>
+            <label><!-- Результаты и следующие шаги --></label>
+            <section>Результаты и следующие шаги</section>
+        </sections>
+        <sections>
+            <label><!-- Системная информация --></label>
+            <section>Системная информация</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Check-In --></label>
+        <name>CheckIn</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Check-Out --></label>
+        <name>CheckOut</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Show Present --></label>
+        <name>Show_Present</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- CheckIn --></label>
+        <name>CheckIn</name>
+    </webLinks>
+</CustomObjectTranslation>

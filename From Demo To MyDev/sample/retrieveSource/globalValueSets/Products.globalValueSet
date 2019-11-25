@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ОСАГО</fullName>
+        <default>false</default>
+        <label>ОСАГО</label>
+    </customValue>
+    <customValue>
+        <fullName>КАСКО</fullName>
+        <default>false</default>
+        <label>КАСКО</label>
+    </customValue>
+    <customValue>
+        <fullName>ОМС</fullName>
+        <default>false</default>
+        <label>ОМС</label>
+    </customValue>
+    <customValue>
+        <fullName>ДМС</fullName>
+        <default>false</default>
+        <label>ДМС</label>
+    </customValue>
+    <masterLabel>Products</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

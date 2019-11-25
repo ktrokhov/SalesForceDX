@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Показатель</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Показатели</value>
+    </caseValues>
+    <fields>
+        <label><!-- Партнер --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Показатели --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Средний чек (факт) --></label>
+        <name>AverageInvoiceFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Средний чек (план) --></label>
+        <name>AverageInvoicePlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Кол-во командировок (факт) --></label>
+        <name>BusinessTripsNumberFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Кол-во командировок (план) --></label>
+        <name>BusinessTripsNumberPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Период показателя --></label>
+        <name>IndexDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Период показателя --></label>
+        <name>IndexShortDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Период показателя год --></label>
+        <name>IndexShortYearDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- KPI Name --></label>
+        <name>KPI_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Активировано офисов (факт) --></label>
+        <name>OfficesActivatedThisPeriodFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Активировано офисов (план) --></label>
+        <name>OfficesActivatedThisPeriodPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ответственный (TSDM) --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- % выполнения объема продаж НСЖ --></label>
+        <name>PercentSalesVolumeFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- % выполнения объема продаж ИСЖ --></label>
+        <name>PercentSalesVolumeInvestFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Объём продаж НСЖ (факт) --></label>
+        <name>PeriodSalesVolumeFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Объём продаж ИСЖ (факт) --></label>
+        <name>PeriodSalesVolumeInvestFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Объём продаж ИСЖ (план) --></label>
+        <name>PeriodSalesVolumeInvestPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Объём продаж НСЖ (план) --></label>
+        <name>PeriodSalesVolumePlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продано полисов (факт) --></label>
+        <name>PoliciesSoldFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продать полисов (план) --></label>
+        <name>PoliciesSoldPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Продуктивность специалистов отделений --></label>
+        <name>Productivity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Квартал --></label>
+        <name>Quartal__c</name>
+        <picklistValues>
+            <masterLabel>2019 Q1</masterLabel>
+            <translation><!-- 2019 Q1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019 Q2</masterLabel>
+            <translation><!-- 2019 Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019 Q3</masterLabel>
+            <translation><!-- 2019 Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019 Q4</masterLabel>
+            <translation><!-- 2019 Q4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Причина --></label>
+        <name>Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Сотрудник --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Показатели --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Кол-во встреч (факт) --></label>
+        <name>VisitsNumberFact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Кол-во встреч (план) --></label>
+        <name>VisitsNumberPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Период показателя YYYY.MM --></label>
+        <name>YYYY_MM__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Показатель Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Основные показатели --></label>
+            <section>Основные показатели</section>
+        </sections>
+        <sections>
+            <label><!-- Продажи (KPI) --></label>
+            <section>Продажи (KPI)</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Внести план на объем продаж --></label>
+        <name>create_plan</name>
+    </quickActions>
+</CustomObjectTranslation>
